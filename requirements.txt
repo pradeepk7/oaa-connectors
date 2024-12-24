@@ -1,0 +1,31 @@
+# Core dependencies
+oaaclient>=1.1.7,<2.0.0  # Veza OAA client library
+requests>=2.31.0,<3.0.0  # HTTP client library
+urllib3>=2.0.7,<3.0.0    # HTTP client library dependency
+certifi>=2023.7.22       # SSL/TLS certificate verification
+
+# Authentication and security
+cryptography>=41.0.4     # For secure token handling
+pyjwt>=2.8.0            # For JWT token processing
+
+# Utility libraries
+python-dateutil>=2.8.2   # Date parsing and handling
+tenacity>=8.2.3         # Retry handling
+backoff>=2.2.1          # Rate limiting and backoff
+
+# Type checking and validation
+typing-extensions>=4.8.0  # Additional type hints
+mypy-extensions>=1.0.0   # Type checking extensions
+pydantic>=2.4.2         # Data validation
+
+# Optional development dependencies
+black>=23.9.1           # Code formatting
+isort>=5.12.0          # Import sorting
+flake8>=6.1.0          # Code linting
+pytest>=7.4.2          # Testing framework
+pytest-cov>=4.1.0      # Test coverage
+responses>=0.23.3      # HTTP mocking for tests
+freezegun>=1.2.2       # DateTime mocking for tests
+
+# Logging and monitoring
+structlog>=23.1.0      # Structured logging

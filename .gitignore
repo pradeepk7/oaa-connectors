@@ -1,0 +1,210 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Coverage and Testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+.mypy_cache/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.icloud
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# IDEs and Editors
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# PyCharm/IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+out/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+
+# Project specific
+# Logs
+logs/
+*.log
+log/
+temp/
+tmp/
+
+# Configuration files that might contain secrets
+config.ini
+secrets.yaml
+credentials.json
+token.json
+
+# Generated files
+generated/
+exports/
+output/
+
+# Data files
+*.csv
+*.json
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*_backup
+*.old
+*_old
+
+# Virtual environment markers
+.envrc
+.direnv
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Dependencies
+node_modules/
+vendor/
+bower_components/
+
+# Local development files
+local_settings.py
+override.py
+custom_settings.py
+
+# API documentation
+docs/_build/
+site/
+
+# Security and keys
+*.pem
+*.key
+*.cert
+*.crt
+*.pub
+
+# Archive files
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Temporary files
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+*.tmp
+*.temp
+.DS_Store?
