@@ -41,7 +41,7 @@ The SailPoint IdentityNow connector synchronizes identity and access data from S
 - Organizational relationships
 - Custom attributes
 
-[Learn more about the SailPoint connector](connectors/sailpoint-identitynow/README.md)
+[Learn more about the SailPoint connector](connectors/sailpoint-identitynow)
 
 ### WorkBoard Connector
 
@@ -52,7 +52,7 @@ The WorkBoard connector integrates user and team data from WorkBoard's OKR and s
 - Role-based access mapping
 - Custom attribute integration
 
-[Learn more about the WorkBoard connector](connectors/workboard/README.md)
+[Learn more about the WorkBoard connector](connectors/workboard)
 
 ## Common Features
 
