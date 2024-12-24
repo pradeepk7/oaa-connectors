@@ -106,7 +106,7 @@ The connectors follow a consistent architecture:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-org/veza-oaa-connectors.git
+git clone https://github.com/pradeepk7/veza-oaa-connectors.git
 cd veza-oaa-connectors
 ```
 
@@ -123,14 +123,14 @@ pip install -r requirements.txt
 
 1. Create a virtual environment:
 ```bash
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-.\venv\Scripts\activate   # Windows
+python -m venv ~/.venv/<app connector>
+source ~/.venv/<app connector>/bin/activate  # Linux/Mac
+.\venv\<app connector>\Scripts\activate   # Windows
 ```
 
 2. Install development dependencies:
 ```bash
-pip install -r requirements-dev.txt
+pip install -r requirements.txt
 ```
 
 ### Code Style
