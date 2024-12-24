@@ -160,7 +160,7 @@ pytest --cov=connectors
 3. Write tests for new functionality
 4. Submit a pull request
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+See [CONTRIBUTING.md](CONTRIBUTING.md) (WIP) for detailed guidelines.
 
 ## Security
 
